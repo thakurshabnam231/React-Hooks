@@ -1,4 +1,5 @@
 import React from 'react'
+import DataFetchUseEffect from './Components/DataFetchUseEffect';
 import UseEffect from './Components/UseEffect';
 import UseEffectCleanUp from './Components/UseEffect';
 import UseEffectCounter from './Components/UseEffectCounter';
@@ -9,6 +10,7 @@ import UseStateObj from './Components/UseStateObj';
 function App() {
   return (
     <div className="App">
+    <DataFetchUseEffect/>
     <UseEffectCounter/>
     <UseStateArray/>
     <UseStateObj/>

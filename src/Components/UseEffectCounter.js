@@ -11,7 +11,7 @@ const UseEffectCounter = () => {
        return()=>{
        clearInterval(interval)
    }
-    },[count])
+    },[])
     return (
         <div>
             <h1>{count}</h1>
