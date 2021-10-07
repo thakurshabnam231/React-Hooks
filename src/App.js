@@ -10,6 +10,7 @@ import UseStateObj from './Components/UseStateObj';
 function App() {
   return (
     <div className="App">
+    
     <DataFetchUseEffect/>
     <UseEffectCounter/>
     <UseStateArray/>
