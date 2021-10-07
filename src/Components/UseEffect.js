@@ -6,8 +6,8 @@ const UseEffect = () => {
     useEffect(()=>{
         console.log("submitted")
         if(count>=1){
-        document.title=`chats(${count})`}
-        else {document.title=`chats`}},
+        document.title=`react-app(${count})`}
+        else {document.title=`react-app`}},
         [count] );
      const onClickHandler=()=>{
         setCount(count+1)
